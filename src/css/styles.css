@@ -1,0 +1,338 @@
+:root {
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-orange: #ff4d05;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+ background-color: var(--color-dark3);
+ border-radius: 40px;
+}
+
+body{
+    background-color: var(--color-dark1);
+}
+
+.logo-header img{
+  width: 2.5em;
+}
+header, 
+.nagivation_header{
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: var(--color-dark2);
+    box-shadow: 1px 1px 4px var(--color-dark4);
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.nagivation_header{
+    gap: 3em;
+    z-index: 9999;
+}
+.nagivation_header a{
+    color: var(--color-orange);
+    transition: 0.5s;
+    font-weight: 600;
+}
+.navbar_cnt:hover{
+    background-color: var(--color-dark3);
+    color: var(--color-white);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn_icon_header{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none;
+}
+.content{
+    transition: 1s;
+}
+
+.main-home{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulos{
+  margin-left: 20px;
+  font-size: 2.7em;
+  border-left: solid var(--color-white) 5px;
+  color: var(--color-white);
+}
+
+.foto_minha{
+  width: 50em;
+}
+
+
+  .textHome::after {
+    content: '|';
+    opacity: 1;
+    animation: pisca.7s infinite;
+    text-transform: uppercase;
+  }
+  
+  @keyframes pisca {
+  
+    0%,
+    100% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  }
+
+/* CURSOS*/
+
+.cursos {
+  border-top:solid var(--color-dark4) 4px ;
+  padding: 30px 10px;
+}
+
+.title {
+  color: var(--color-orange);
+  text-align: center;
+  padding: 20px 0px;
+  
+}
+
+  .wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: var(--color-white);
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.85);
+  }
+  .wrapper i:first-child{
+    left: -22px;
+  }
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  .wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel.no-transition {
+    scroll-behavior: auto;
+  }
+  .carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging .card_cursos{
+    cursor: grab;
+    user-select: none;
+  }
+  .carousel :where(.card_cursos, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel .card_cursos{
+    scroll-snap-align: start;
+    height: 342px;
+    list-style: none;
+    background: #fff;
+    cursor: pointer;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  .carousel .card_cursos .img {
+    background: var(--color-dark3);
+    height: 148px;
+    width: 148px;
+    border-radius: 50%;
+  }
+  .card_cursos .img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+  }
+  .carousel .card_cursos h2 {
+    font-weight: 500;
+    font-size: 1.50rem;
+    margin: 10px 0px 5px;
+    text-align: center;
+  }
+  .texto_curso{
+    color: var(--color-dark3);
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 9px;
+  }
+
+  /*SOBRE MIM*/
+
+
+  .sobre_mim{
+    border-top:solid var(--color-dark4) 4px ;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+  .text_sobremim{
+    background-color: var(--color-white);
+    box-shadow: 7px 7px 40px var(--color-orange);
+    border-radius: 30px;
+    padding: 40px;
+    font-size: 1.3em;
+    width: 70em;
+    text-align: justify;
+  }
+
+  /*PROJETOS*/
+  .projetos{
+    border-top:solid var(--color-dark4) 4px ;
+    text-align: center;
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+.projetos div{
+  position: relative;
+  max-width: 1350px;
+  width: 100%;
+  margin: 50px auto;
+}
+.projetos button{
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #fff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.filter_buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button.active{
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+
+.filterable_cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 1px;
+  background-color: var(--color-white);
+  padding: 3px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px var(--color-orange);
+}
+.card.hide{
+  display: none;
+}
+
+.card img{
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.car_body{
+  padding: 10px 20px 20px;
+}
+.card_title{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-dark4);
+}
+
+.link{
+  padding-left: 20em;
+  padding-bottom: 0px;
+  color: var(--color-dark4);
+}
+
+.card_text{
+  padding: 10px;
+  text-align: justify;
+  font-size: 17px;
+  color: var(--color-dark4);
+}
+
+/*CONTATO*/
+
+.contato{
+  border-top:solid var(--color-dark4) 4px ;
+  text-align: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.conteudo_contato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  height: 7em;
+  margin: auto;
+  width: 80em;
+  border-radius: 20px;
+}
+
+.fone, .email{
+  font-size: 30px;
+  padding: 60px;
+}

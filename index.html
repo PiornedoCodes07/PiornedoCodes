@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiornedoCodes</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+
+    <!--JavaScript-->
+    <script defer src="/src/js/scripts.js"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+    <header id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="logo-header">
+            <img src="/src/imagens/minhaLogo.png" alt="PiornedoCodes">
+        </div>
+        <nav id="nagivation_header" class="nagivation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="#" class="navbar_cnt">HOME</a>
+            <a href="#cursos" class="navbar_cnt">CURSOS</a>
+            <a href="#sobre_mim" class="navbar_cnt">SOBRE MIM</a>
+            <a href="#projetos" class="navbar_cnt">PROJETOS</a>
+            <a href="#contato" class="navbar_cnt">CONTATO</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section class="main-home" id="home">
+            <div class="titulos">
+                <h3>Olá, Meu nome é</h3>
+                <h1 id="textH" class="textHome">Pedro Piornedo</h1>
+                <h2>Web Developer</h2>
+            </div>
+            <img src="/src/imagens/FotoMinha.png" alt="foto_minha" class="foto_minha">
+        </section>
+<div id="cursos" class="cursos">
+            <h1 class="title">CURSOS</h1>    
+
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_html.png" alt="img" draggable="false"></div>
+                    <h2>Cursos HTML</h2>
+                    <span class="texto_curso">Curso HTML 5 + CSS 3 / On Byte Londrina-Pr | Curso HTML5 e CSS3: módulo 1 de 5 [40 HORAS] / Curso em Video | Curso HTML5 e CSS3: módulo 2 de 5 [40 HORAS] / Curso em Video. </span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_css.png" alt="img" draggable="false"></div>
+                    <h2>Cursos CSS</h2>
+                    <span class="texto_curso">Curso HTML 5 + CSS 3 / On Byte Londrina-Pr | Curso HTML5 e CSS3: módulo 1 de 5 [40 HORAS] / Curso em Video | Curso HTML5 e CSS3: módulo 2 de 5 [40 HORAS] / Curso em Video.</span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_js.png" alt="img" draggable="false"></div>
+                    <h2>Cursos JavaScript</h2>
+                    <span class="texto_curso">Curso JavaScript / On byte Londrina-Pr.</span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_csharp.png" alt="img" draggable="false"></div>
+                    <h2>Cursos C#</h2>
+                    <span class="texto_curso">Curso Linguagem de Programação C# - Básico [5 HORAS] / Fundação Bradesco.</span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_banco.png" alt="img" draggable="false"></div>
+                    <h2>Cursos Banco de Dados</h2>
+                    <span class="texto_curso">Curso Banco De Dados / On byte Londrina-Pr.</span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_uml.png" alt="img" draggable="false"></div>
+                    <h2>Cursos UML</h2>
+                    <span class="texto_curso">Curso UML / On byte Londrina-Pr.</span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_logica.png" alt="img" draggable="false"></div>
+                    <h2>Cursos Lógica de Prog. Orientada a Objetos</h2>
+                    <span class="texto_curso">Curso Lógica de Prog. Orientada a Objetos / On byte Londrina-Pr.</span>
+                  </li>
+                  <li class="card_cursos">
+                    <div class="img"><img src="/src/imagens/curso_decisão.png" alt="img" draggable="false"></div>
+                    <h2>Curso Processo de Julgamento e Tomada de Decisões Responsáveis</h2>
+                    <span class="texto_curso">Curso Processo de Julgamento e Tomada de Decisões Responsáveis [4 HORAS] / Fundação Bradesco.
+                    </span>
+                  </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+
+            <!--SOBRE MIM-->
+  
+            <div id="sobre_mim" class="sobre_mim">
+              <h1 class="title">SOBRE MIM</h1>
+              <div class="text_sobremim">
+                <p>Olá, meu nome é Pedro e tenho 17 anos. Desde criança, sou apaixonado por tecnologia e fascinado pelo mundo da robótica, da ciência da computação e da programação. Aos 14 anos, quando me formei em manutenção de conserto de celulares, finalmente tive a oportunidade de iniciar meus estudos na área que tanto amo.
+                Minha jornada no universo da programação começou e não parei mais. Iniciei com cursos gratuitos de <strong>HTML e CSS</strong>, mas logo percebi que queria ir além. Decidi investir em meu conhecimento e participei de diversos cursos na OnByte, em Londrina-PR, onde aprendi <strong>JavaScript</strong>, <strong>UML</strong> e outras tecnologias.
+                Atualmente, estou em andamento de cursos mais avançados, como <strong>PHP com Laravel</strong>,<strong>Java Web</strong> e <strong>Python</strong>. Sempre busco me aprimorar e estar atualizado com as últimas tendências e tecnologias do mercado. Além dos cursos formais, também dedico parte do meu tempo a projetos pessoais, onde coloco em prática o que aprendo e aprimoro minhas habilidades.
+                Meu objetivo é seguir a carreira de programador e ir além, buscando constantemente novos desafios e oportunidades para crescer profissionalmente. Acredito que a tecnologia é uma ferramenta poderosa para transformar o mundo e desejo contribuir para esse progresso.</p>
+              </div>
+
+
+            </div>
+
+            <!--PROJETOS-->
+            <div id="projetos" class="projetos">
+              <h1 class="title">PROJETOS</h1>
+
+              <div class="conteudo_projetos">
+
+                <div class="filter_buttons">
+                  <button class="active" data-name="all">Todos</button>
+                  <button data-name="html">Html Css</button>
+                  <button data-name="js">JavaScripts</button>
+                  <button data-name="treinamento">Treinamentos</button>
+                </div>
+            
+
+              <div class="filterable_cards">
+                
+                <div class="card" data-name="js">
+                  <img src="/src/imagens/banner_calculadora.png" alt="calculadora">
+                  <div class="card_body">
+                    <h6 class="card_title">Calculadora Dark Mode</h6>
+                    <p class="card_text">
+                      Uma calculadora desenvolvida com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, que oferece ao usuário a escolha entre dark-mode e white-mode, tornando-a mais elegante e interessante. Através da combinação de cores e elementos visuais, proporcionamos uma experiência agradável aos olhos e uma interface intuitiva. </p>
+                      <a class="link" target="_blank" href="https://github.com/PiornedoCodes07/CalculadoraDarkMode.git">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+
+
+    
+                <div class="card" data-name="html">
+                  <img src="/src/imagens/banner_dontstarve.png" alt="dontstarve">
+                  <div class="card_body">
+                    <h6 class="card_title">Landing Page Don't Starve</h6>
+                    <p class="card_text">Apresento minha Landing Page sobre o famoso jogo "Don't Starve", desenvolvida durante meu aprendizado em <strong>HTML</strong>, <strong>CSS</strong> e JavaScript. O foco principal é na excelência de HTML e CSS, resultando em uma página atraente que captura a essência do jogo.</p>
+                    <a class="link" target="_blank" href="https://github.com/PiornedoCodes07/Don-t-Starve.git">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="card" data-name="js">
+                  <img src="/src/imagens/banner_portifolio.png" alt="dontstarve">
+                  <div class="card_body">
+                    <h6 class="card_title">Primeiro Portfólio</h6>
+                    <p class="card_text">Esse projeto surgiu durante o período em que cursei o curso de JavaScript na On Byte Londrina. Essa experiência foi de grande aprendizado para mim, permitindo aprimorar habilidades essenciais em desenvolvimento web. No portfólio, utilizei um conjunto de tecnologias, incluindo <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Bootstrap</strong> e <strong>jQuery</strong>, que combinadas, resultaram em uma plataforma sólida e atrativa.</p>
+                    <a  class="link" target="_blank" href="https://github.com/PiornedoCodes07/MeuPrimeiroPortf-lio.git">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+
+    
+                <div class="card" data-name="js">
+                  <img src="/src/imagens/banner_lampada.png" alt="">
+                  <div class="card_body">
+                    <h6 class="card_title">A Lâmpada</h6>
+                    <p class="card_text">Com este projeto, pude aprimorar minhas habilidades em <strong>JavaScript</strong> e solidificar a compreensão de conceitos que antes me escapavam. Embora seja um projeto simples, ele é divertido e interativo, e foi justamente esse foco em JavaScript que permitiu que eu mergulhasse de forma mais profunda nessa linguagem.</p>
+                    <a  class="link" target="_blank" href="https://github.com/PiornedoCodes07/A-Lampada.git">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+
+
+      
+                <div class="card" data-name="treinamento">
+                  <img src="/src/imagens/banner_nintendo.png" alt="">
+                  <div class="card_body">
+                    <h6 class="card_title">Seletor Nintendo</h6>
+                    <p class="card_text">Apresento um dos meus primeiros projetos na programação, onde pratiquei conceitos de <strong>HTML</strong> e <strong>CSS</strong>. Embora não seja responsivo ou tão organizado quanto meus projetos atuais, é totalmente interativo e representa minha evolução como desenvolvedor desde então. A cada linha de código, ganhei confiança e aprendi a criar páginas web atraentes. Apesar das limitações, valorizo esse projeto como parte essencial da minha jornada de aprendizado contínuo, buscando sempre aprimorar minhas habilidades e crescer como programador.</p>
+                    <a class="link" target="_blank" href="https://github.com/PiornedoCodes07/Nintendo-Personagens.git"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                    </a>
+                  </div>
+                </div>
+   
+
+
+              
+                <div class="card" data-name="treinamento">
+                  <img src="/src/imagens/banner_pesquisa.png" alt="">
+                  <div class="card_body">
+                    <h6 class="card_title">Barra de Pesquisa</h6>
+                    <p class="card_text">Apresento um treino de <strong>HTML</strong> e <strong>CSS</strong> que definitivamente vale a pena ser conferido. Nesse projeto, tive uma experiência reveladora ao explorar conceitos avançados do CSS, especialmente as pseudoclasses, que adicionaram um toque interessante e dinâmico aos meus projetos.</p>
+                    <a  class="link" target="_blank" href="https://github.com/PiornedoCodes07/Barra-de-Pesquisa.git">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+    
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <!--CONTATO-->
+          <div id="contato" class="contato">
+              <h1 class="title">CONTATO</h1>
+              <div class="conteudo_contato">
+                <div class="fone">
+                  <h6>Fone:</h6>
+                  <p>(43) 99916-4473<p>
+                </div>
+                <div class="email">
+                  <h6>Email:</h6>
+                  <p>piornedo.pedro.codes@gmail.com<p>
+                </div>
+              </div>
+          </div>  
+
+    </main>
+</body>
+</html>
