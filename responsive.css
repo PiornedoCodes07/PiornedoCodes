@@ -1,0 +1,360 @@
+@media screen and (max-width: 1490px){
+  .text_sobremim {
+    font-size: 1.2em;
+    width: 68em;
+  }
+  
+}
+@media screen and (max-width: 1320px){
+  .text_sobremim {
+    font-size: 1.1em;
+    width: 65em;
+  }
+  .conteudo_contato{
+    height: 7em;
+    width: 70em;
+
+  }
+  
+}
+
+@media screen and (max-width: 1210px){
+    .titulos{
+        font-size: 2.5em;
+      }
+      
+      .foto_minha{
+        width: 37em;
+      }
+      .text_sobremim {
+        font-size: 1em;
+        width: 64em;
+      }
+      
+}
+@media screen and (max-width: 1160px){
+        .wrapper {
+        width: 62em;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 60em;
+    
+      }
+      .fone, .email{
+        font-size: 27px;
+      }
+}
+
+@media screen and (max-width: 1090px){
+    .titulos{
+        font-size: 2.3em;
+      }
+      
+      .foto_minha{
+        width: 35em;
+      }
+      .wrapper {
+        width: 60em;
+      }
+      .text_sobremim {
+        font-size: 0.9em;
+        width: 63em;
+      }
+      
+}
+
+@media screen and (max-width: 1021px){
+    .titulos{
+        font-size: 2.2em;
+      }
+      
+      .foto_minha{
+        width: 33em;
+      }
+      .wrapper {
+        width: 45em;
+      }
+}
+@media screen and (max-width: 1021px){
+      .wrapper {
+        width: 55em;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 57em;
+    
+      }
+      .fone, .email{
+        font-size: 25px;
+      }
+      
+}
+
+@media screen and (max-width: 970px){
+    .btn_icon_header{
+        display: block;
+    }
+    .nagivation_header{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-dark5);
+        height: 100vh;
+        width: 35vw;
+        padding: 1em; 
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+    .wrapper {
+        width: 51em;
+      }
+      .text_sobremim {
+        font-size: 0.8em;
+        width: 62em;
+      }
+}
+
+    
+.titulos{
+    font-size: 1.9em;
+  }
+  
+  .foto_minha{
+    width: 33em;
+  }
+  .conteudo_contato{
+    height: 7em;
+    width: 55em;
+
+  }
+  .fone, .email{
+    font-size: 24px;
+  }
+
+
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    top {margin-left: -10vw;}
+}
+
+@media screen and (max-width: 900px){
+    .titulos{
+        font-size: 1.7em;
+      }
+      
+      .foto_minha{
+        width: 30em;
+      }
+      .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 50em;
+      
+      }
+      .fone, .email{
+        font-size: 22px;
+      }
+}
+
+
+@media screen and (max-width: 876px){
+    .titulos{
+        font-size: 1.4em;
+      }
+      
+      .foto_minha{
+        width: 28em;
+      }
+      .wrapper {
+        width: 43em;
+      }
+      
+}
+@media screen and (max-width: 827px){
+    .titulos{
+        font-size: 1.4em;
+      }
+      
+      .foto_minha{
+        width: 28em;
+      }
+      .wrapper {
+        width: 37em;
+      }
+      .text_sobremim {
+        font-size: 0.7em;
+        width: 62em;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 43em;
+      
+      }
+      .fone, .email{
+        font-size: 18px;
+      }
+}
+
+
+@media screen and (max-width: 740px){
+    .titulos{
+        font-size: 1.2em;
+      }
+      
+      .foto_minha{
+        width: 24em;
+      }
+      .text_sobremim {
+        font-size: 0.6em;
+        width: 62em;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 40em;
+      
+      }
+      .fone, .email{
+        font-size: 15px;
+      }
+}
+
+@media screen and (max-width: 670px){
+    .wrapper {
+        width: 35em;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 38em;
+      
+      }
+      .fone, .email{
+        font-size: 15px;
+      }
+}
+
+@media screen and (max-width: 630px){
+    .wrapper {
+        width: 33em;
+      }
+      .text_sobremim {
+        font-size: 0.57em;
+        width: 61em;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 35em;
+      
+      }
+      .fone, .email{
+        font-size: 13px;
+      }
+      
+}
+
+@media screen and (max-width: 600px){
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+      }
+    .titulos{
+        font-size: 1em;
+      }
+      
+      .foto_minha{
+        width: 21em;
+      }
+}
+
+@media screen and (max-width: 590px){
+    .wrapper {
+        width:27em;
+      }
+      .titulos{
+        font-size: 0.8em;
+      }
+      
+      .foto_minha{
+        width: 19em;
+      }
+      .text_sobremim {
+        font-size: 0.55em;
+        width: 61em;
+      }
+      .projetos button{
+        font-size: 16px;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 33em;
+      
+      }
+      .fone, .email{
+        font-size: 13px;
+        padding: 10px;
+      }
+      
+}
+
+@media screen and (max-width: 550px){
+    .titulos{
+        font-size: 0.9em;
+      }
+    
+      .titulos{
+        font-size: 0.8em;
+      }
+      
+      .foto_minha{
+        width: 18em;
+      }
+      .text_sobremim {
+        font-size: 0.54em;
+        width: 54em;
+      }
+      
+      .projetos button{
+        font-size: 13px;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 30em;
+      
+      }
+      .fone, .email{
+        font-size: 14px;
+        padding: 20px;
+      }
+}
+
+@media screen and (max-width: 480px){
+    .wrapper {
+        width:21em;
+      }
+      .titulos{
+        font-size: 0.8em;
+      }
+      
+      .foto_minha{
+        width: 16em;
+      }
+      .text_sobremim {
+        font-size: 0.50em;
+        width: 47em;
+      }
+      
+      .projetos button{
+        font-size: 10px;
+      }
+      .conteudo_contato{
+        height: 7em;
+        width: 20em;
+        flex-direction: column;
+      }
+      .fone, .email{
+        font-size: 15px;
+        padding: 10px;
+      }
+
+}
